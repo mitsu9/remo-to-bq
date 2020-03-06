@@ -27,6 +27,7 @@ $ bq --location=asia-northeast1 mk
   --description "Nature Remo dataset" \
   <dataset>
 $ bq mk --table <dataset>.<table> ./db/sensors.json
+$ bq update --expiration 0 <dataset>.<table>
 ```
 
 Cloud Functionsのデプロイをします.
