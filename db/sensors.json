@@ -1,0 +1,32 @@
+[
+ {
+   "description": "名前",
+   "name": "NAME",
+   "type": "String",
+   "mode": "Required"
+ },
+ {
+   "description": "時刻",
+   "name": "DATETIME",
+   "type": "Timestamp",
+   "mode": "Nullable"
+ },
+ {
+   "description": "温度",
+   "name": "TEMPERATURE",
+   "type": "Float",
+   "mode": "Nullable"
+ },
+ {
+   "description": "湿度",
+   "name": "HUMIDITY",
+   "type": "Float",
+   "mode": "Nullable"
+ },
+ {
+   "description": "照度",
+   "name": "ILLUMINATION",
+   "type": "Float",
+   "mode": "Nullable"
+ }
+]
